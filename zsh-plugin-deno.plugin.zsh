@@ -1,1 +1,1 @@
-deno completions zsh > ${$(readlink -f $0):h}/_${$(readlink -f $0):h:t}
+deno completions zsh > ${$(greadlink -f $0):h}/_${$(greadlink -f $0):h:t}
